@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const intents = new Discord.Intents(32767);
 const client = new Discord.Client({ intents });
-
+hola ferri eri gey
 
 client.on('ready', () => {
     console.log('Bot iniciado en ' + client.user.tag);
